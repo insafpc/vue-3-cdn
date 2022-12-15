@@ -1,4 +1,4 @@
-#Vue3 CDN Project & Vanilla JS Form validation
+# Vue3 CDN Project & Vanilla JS Form validation
 
 ## Challenge
 
