@@ -1,0 +1,17 @@
+{
+  "name": "vue-3-cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.html",
+  "scripts": {
+    "start": "grunt"
+  },
+  "author": "INSAF",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "1.5.3",
+    "grunt-contrib-connect": "1.0.2",
+    "grunt-contrib-less": "1.4.1",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

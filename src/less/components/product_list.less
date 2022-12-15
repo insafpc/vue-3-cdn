@@ -1,0 +1,96 @@
+.view-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.item {
+  margin-top: 30px;
+
+  .card {
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+    border-radius: 0;
+
+    .card-title {
+      color: @secondaryColor;
+    }
+
+    .card-fav {
+      color: @primaryColor;
+      float: right;
+      background: @whiteColor;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lead {
+      font-size: 24px;
+      color: @secondaryColor;
+    }
+
+    .offer-info {
+      color: @primaryColor;
+    }
+
+    .fa-star {
+      color: @primaryColor;
+    }
+
+    .offer-price-cross{
+      color: @grayColor;
+    }
+
+    &-img-overlay {
+      left: auto;
+      bottom: auto;
+    }
+  }
+
+  .list-group-image {
+    width: 100%;
+  }
+
+  .img-event {
+    position: relative;
+  }
+
+
+  &.list-group-item {
+    float: none;
+    width: 100%;
+    background-color: transparent;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    border: 0;
+
+    &.list-group-image {
+      margin-right: 10px;
+    }
+
+    .img-event {
+      float: left;
+      width: 30%;
+    }
+
+    .thumbnail {
+      margin-bottom: 0;
+      display: inline-block;
+      width: 100%;
+    }
+
+    .caption {
+      float: left;
+      width: 70%;
+      margin: 0;
+    }
+  }
+}

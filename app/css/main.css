@@ -1,0 +1,110 @@
+body {
+  background: #f5f5f5;
+  padding-top: 60px;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+.cross-text {
+  text-decoration: line-through;
+}
+a:hover {
+  text-decoration: none;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  border-bottom: 2px solid #ec79a5;
+}
+.view-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.item {
+  margin-top: 30px;
+}
+.item .card {
+  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+  border-radius: 0;
+}
+.item .card .card-title {
+  color: #3a376b;
+}
+.item .card .card-fav {
+  color: #ec79a5;
+  float: right;
+  background: #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item .card .lead {
+  font-size: 24px;
+  color: #3a376b;
+}
+.item .card .offer-info {
+  color: #ec79a5;
+}
+.item .card .fa-star {
+  color: #ec79a5;
+}
+.item .card .offer-price-cross {
+  color: #9896a4;
+}
+.item .card-img-overlay {
+  left: auto;
+  bottom: auto;
+}
+.item .list-group-image {
+  width: 100%;
+}
+.item .img-event {
+  position: relative;
+}
+.item.list-group-item {
+  float: none;
+  width: 100%;
+  background-color: transparent;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 1rem;
+  border: 0;
+}
+.item.list-group-item.list-group-image {
+  margin-right: 10px;
+}
+.item.list-group-item .img-event {
+  float: left;
+  width: 30%;
+}
+.item.list-group-item .thumbnail {
+  margin-bottom: 0;
+  display: inline-block;
+  width: 100%;
+}
+.item.list-group-item .caption {
+  float: left;
+  width: 70%;
+  margin: 0;
+}
+.form .input-group .check,
+.form .input-group .cross {
+  display: none;
+}
+.form .input-group.success .check {
+  display: block !important;
+}
+.form .input-group.failed .cross {
+  display: block !important;
+}

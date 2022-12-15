@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<div class="container">
+    <form class="form">
+
+        <!--Name field-->
+        <div class="form-group">
+            <label for="name">Name</label>
+            <div class="input-group  flex-nowrap">
+                <div class="w-100">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="input-group-append check">
+                    <span class="input-group-text text-success">✔</span>
+                </div>
+                <div class="input-group-append cross">
+                    <span class="input-group-text text-danger">X</span>
+                </div>
+            </div>
+        </div>
+
+        <!--Surname field-->
+        <div class="form-group">
+            <label for="surname">Surname</label>
+            <div class="input-group  flex-nowrap">
+                <div class="w-100">
+                    <input type="text" class="form-control" name="surname" id="surname" placeholder="Enter Surname">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="input-group-append check">
+                    <span class="input-group-text text-success">✔</span>
+                </div>
+                <div class="input-group-append cross">
+                    <span class="input-group-text text-danger">X</span>
+                </div>
+            </div>
+        </div>
+
+        <!--Email field-->
+        <div class="form-group">
+            <label for="email">Email</label>
+
+            <div class="input-group  flex-nowrap">
+                <div class="w-100">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="input-group-append check">
+                    <span class="input-group-text text-success">✔</span>
+                </div>
+                <div class="input-group-append cross">
+                    <span class="input-group-text text-danger">X</span>
+                </div>
+            </div>
+        </div>
+
+        <!--Phone field-->
+        <div class="form-group">
+            <label for="password">Phone</label>
+            <div class="input-group  flex-nowrap">
+                <div class="w-100">
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter Phone">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="input-group-append check">
+                    <span class="input-group-text text-success">✔</span>
+                </div>
+                <div class="input-group-append cross">
+                    <span class="input-group-text text-danger">X</span>
+                </div>
+            </div>
+        </div>
+
+        <!--Password field-->
+        <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-group  flex-nowrap">
+                <div class="w-100">
+                    <input type="password" name="password" class="form-control" id="password" placeholder="Enter Password">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="input-group-append check">
+                    <span class="input-group-text text-success">✔</span>
+                </div>
+                <div class="input-group-append cross">
+                    <span class="input-group-text text-danger">X</span>
+                </div>
+            </div>
+        </div>
+
+        <!--Confirm field-->
+        <div class="form-group">
+            <label for="password_confirm">Confirm Password</label>
+            <div class="input-group  flex-nowrap">
+                <div class="w-100">
+                    <input type="password" name="password_confirm" class="form-control" id="password_confirm" placeholder="Confirm Password">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="input-group-append check">
+                    <span class="input-group-text text-success">✔</span>
+                </div>
+                <div class="input-group-append cross">
+                    <span class="input-group-text text-danger">X</span>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+</body>
+
+<!-- import validation script -->
+<script src="js/app.form.js"></script>
+</html>

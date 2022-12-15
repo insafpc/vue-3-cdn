@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PLP - product listing page</title>
+
+  <!-- v suite -->
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="https://unpkg.com/vue-router@4"></script>
+  <script src="https://unpkg.com/vuex@next"></script>
+
+  <!-- frontend library - bootstrap -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div id="app">
+    <header>
+      <nav-bar></nav-bar>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <router-view></router-view>
+      </div>
+    </main>
+    <footer-main></footer-main>
+  </div>
+
+  <!-- vue components -->
+  <script src="js/pages/Home.vue.js"></script>
+  <script src="js/pages/ProductDetail.vue.js"></script>
+  <script src="js/components/NavBar.vue.js"></script>
+  <script src="js/components/ProductList.vue.js"></script>
+  <script src="js/components/ProductItem.vue.js"></script>
+  <script src="js/components/FooterMain.vue.js"></script>
+
+  <!-- state -->
+  <script src="js/store/index.js"></script>
+
+  <!-- vue init file -->
+  <script src="js/app.index.js"></script>
+</body>
+
+</html>
